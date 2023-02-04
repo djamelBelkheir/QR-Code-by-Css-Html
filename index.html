@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: #3e52a3; }
+  
+    .container { 
+      font-family: sans-serif;
+      width: 90%;
+      padding-block: 6rem;
+      background-color: #5671dc82;
+      margin: auto;
+      box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.445);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container .card {
+      width: 270px;
+      background-color: white;
+      padding: .5em;
+      border-radius: 8px;
+      box-shadow: 0 0 15px 0 #00000033 ;
+    }
+    .card-inside {
+      width: 100%;
+    }
+    .card-inside .image {
+      width: 100%;
+    }
+    .card .image img{
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card .content {
+      padding: .5em;
+      text-align: center;
+    }
+    .content p {
+      color: rgba(0, 0, 0, .5);
+    }
+    .content h1 {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-inside">
+        <div class="image">
+          <img src="/images/image-qr-code.png">
+        </div>
+        <div class="content">
+          <h1>Improve your front-end <br> skills by building projects</h1>
+          <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Djamel Belkheir</a>.
+  </div>
+</body>
+</html>
